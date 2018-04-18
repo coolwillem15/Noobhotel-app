@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>NoobRadio</title>
+</head>
+<body bgcolor="lightblue">
+<center>
+<table border="0" bordercolor="black" width="100%">
+<tr>
+<td colspan="2" align="center"><font face="verdana" color="black"><h1>NoobRadio</h1>
+Klik op de Play knop om te luisteren.<br><br><strong>op dit moment kan je wel muziek horen maar geen player zien.</strong></font></td>
+</tr>
+<tr>
+<td height="50px" align="center">&nbsp;</td>
+</tr>
+<td height="50px" align="center">&nbsp;</td>
+</tr>
+<tr>
+<td align="center">
+<script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
+<script type="text/javascript">
+MRP.insert({
+'url':'http://185.166.237.11:8000/stream',
+'codec':'mp3',
+'volume':100,
+'autoplay':true,
+'jsevents':false,	
+'buffering':0,
+'title':'noobradio',
+'wmode':'transparent',
+'skin':'radiovoz',
+'width':220,
+'height':69
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>stuur hier jou verzoekje op</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<center>
+<body>
+<script>
+function goBack() {
+    window.history.go(-1);
+}
+</script>
+
+<div class="a_box" style="height: 205px; background-position: right top; width: 452px; background-repeat: no-repeat; font-size: 11px; font-weight: normal; font-family: Verdana, Arial, sans-serif; background: 
+url(_images/DJStatusBG.png);"><div style="height: 
+1px;"></div> <div style="border-radius: 2px; height: 140px; background: rgba(0, 0, 0, 0.5); padding: 8px; color: #fff; margin-left: 130px; margin-top: 0px; width: 290px;">
+<div id="cc_req_result_noobhotel"></div>
+<form method='POST' action='shout.php'>
+<b>Naam: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br /><br />
+<b>Type: </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="type">
+<option selected>Nummer Verzoek</option>
+<option>Shoutout</option>
+<option>Competitie</option>
+<option>Grap</option>
+<option>Anders</option>
+</select><br /><br />
+<b>Verzoek: </b><textarea cols='20' rows='2' name='request'></textarea>
+<input type='submit' name='submit' value='Vraag aan'><input type="button" onclick="goBack()" value="Ga terug" />
+</form></body></center>
+</html>
